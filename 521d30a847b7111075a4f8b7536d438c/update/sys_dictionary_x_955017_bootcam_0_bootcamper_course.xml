@@ -11,7 +11,7 @@
         <column_label>Course</column_label>
         <comments/>
         <create_roles/>
-        <default_value>1</default_value>
+        <default_value>2</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
