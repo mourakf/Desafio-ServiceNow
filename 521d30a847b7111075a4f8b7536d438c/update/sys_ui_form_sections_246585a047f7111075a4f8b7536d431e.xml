@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="246585a047f7111075a4f8b7536d431e" sys_domain="global" table="x_955017_bootcam_0_bootcamper" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-12-12 20:09:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>606585a047f7111075a4f8b7536d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_955017_bootcam_0_bootcamper" name="x_955017_bootcam_0_bootcamper" sys_domain="global" view="Default view">246585a047f7111075a4f8b7536d431e</sys_ui_form>
+            <sys_ui_section caption="Bootcamper Info" display_value="Bootcamper Info" name="x_955017_bootcam_0_bootcamper" sys_domain="global" view="Default view">a04e70a847b7111075a4f8b7536d437e</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-12-12 20:09:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-12-12 20:09:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec6585a047f7111075a4f8b7536d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_955017_bootcam_0_bootcamper" name="x_955017_bootcam_0_bootcamper" sys_domain="global" view="Default view">246585a047f7111075a4f8b7536d431e</sys_ui_form>
+            <sys_ui_section caption="Personal Info" display_value="Personal Info" name="x_955017_bootcam_0_bootcamper" sys_domain="global" view="Default view">e46585a047f7111075a4f8b7536d431d</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-12-12 20:09:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_955017_bootcam_0_bootcamper</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-12-12 20:09:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>246585a047f7111075a4f8b7536d431e</sys_id>
+            <sys_name>x_955017_bootcam_0_bootcamper</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_246585a047f7111075a4f8b7536d431e</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

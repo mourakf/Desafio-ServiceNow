@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_955017_bootcam_0_bootcamper">x_955017_bootcam_0_bootcamper</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>BOOTCAM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-12-12 19:37:58</sys_created_on>
+        <sys_id>661e30e847b7111075a4f8b7536d434d</sys_id>
+        <sys_name>BOOTCAM</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_number_661e30e847b7111075a4f8b7536d434d</sys_update_name>
+    </sys_number>
+</record_update>
