@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Bootcamp Registration">68aee6b44773111075a4f8b7536d4368</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:31:35</sys_created_on>
+        <sys_id>776fe2f44773111075a4f8b7536d433e</sys_id>
+        <sys_name>Services.Bootcamp Registration</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sc_cat_item_category_776fe2f44773111075a4f8b7536d433e</sys_update_name>
+    </sc_cat_item_category>
+</record_update>

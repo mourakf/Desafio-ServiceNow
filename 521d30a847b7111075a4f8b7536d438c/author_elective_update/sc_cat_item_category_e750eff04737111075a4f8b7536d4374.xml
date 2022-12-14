@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Copy of Bootcamp Registration">af50eff04737111075a4f8b7536d436d</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-14 02:05:23</sys_created_on>
+        <sys_id>e750eff04737111075a4f8b7536d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Copy of Bootcamp Registration</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sc_cat_item_category_e750eff04737111075a4f8b7536d4374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-14 02:05:23</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</application>
+        <file_path/>
+        <instance_id>c53448ecdb239384439ef70fbf961945</instance_id>
+        <instance_name>dev66757</instance_name>
+        <name>sc_cat_item_category_e750eff04737111075a4f8b7536d4374</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Bootcamp Registration">af50eff04737111075a4f8b7536d436d</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-14 02:05:23</sys_created_on><sys_id>e750eff04737111075a4f8b7536d4374</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Copy of Bootcamp Registration</sys_name><sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope><sys_update_name>sc_cat_item_category_e750eff04737111075a4f8b7536d4374</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-14 02:05:23</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>190478774</payload_hash>
+        <record_name>Services.Copy of Bootcamp Registration</record_name>
+        <reverted_from/>
+        <source>afab16b04733111075a4f8b7536d4316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-14 02:05:24</sys_created_on>
+        <sys_id>6b50a3344737111075a4f8b7536d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1850e611eb60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-14 02:05:24</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>a350a334943711106833b427989958d1</update_guid>
+        <update_guid_history>a350a334943711106833b427989958d1:190478774</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Copy of Bootcamp Registration">326027344737111075a4f8b7536d434e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-14 02:05:36</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0982b74e07824bac817d654c8d026a90</sys_id>
+        <sys_metadata>e750eff04737111075a4f8b7536d4374</sys_metadata>
+        <sys_name>Services.Copy of Bootcamp Registration</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_scope_delete display_value="">46806b66b0f344f8a623dd82c99d7f84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_e750eff04737111075a4f8b7536d4374</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_e750eff04737111075a4f8b7536d4374">6b50a3344737111075a4f8b7536d43d1</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

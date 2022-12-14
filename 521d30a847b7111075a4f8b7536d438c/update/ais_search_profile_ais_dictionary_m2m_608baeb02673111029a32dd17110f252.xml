@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="BOOTCAMPERS search profile">208baeb0c2731110d696be03445a5b58</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:27</sys_created_on>
+        <sys_id>608baeb02673111029a32dd17110f252</sys_id>
+        <sys_name>default_stop_word_dictionary.BOOTCAMPERS search profile</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_608baeb02673111029a32dd17110f252</sys_update_name>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

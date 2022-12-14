@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:31</sys_created_on>
+        <sys_id>2d8beeb04773111075a4f8b7536d4399</sys_id>
+        <sys_name>x.955017.bootcampers.*.x_955017_bootcam_0.instructor</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_security_acl display_value="x.955017.bootcampers.*">a88baeb0a97311102fb56b6608f84057</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2d8beeb04773111075a4f8b7536d4399</sys_update_name>
+        <sys_user_role display_value="x_955017_bootcam_0.instructor" name="x_955017_bootcam_0.instructor">2e1d70a847b7111075a4f8b7536d432c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="BOOTCAMPERS - Workspace Search">a88baeb037731110c5f97a18fa58cc56</search_context_config>
+        <source display_value="BOOTCAMPERS - x_955017_bootcam_0_bootcamper">e58b22f04773111075a4f8b7536d4300</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:33</sys_created_on>
+        <sys_id>c28b22f04773111075a4f8b7536d4337</sys_id>
+        <sys_name/>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_c28b22f04773111075a4f8b7536d4337</sys_update_name>
+    </m2m_search_context_config_search_source>
+</record_update>

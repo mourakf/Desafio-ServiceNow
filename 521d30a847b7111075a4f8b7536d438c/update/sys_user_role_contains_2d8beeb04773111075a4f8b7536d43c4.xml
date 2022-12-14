@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_955017_bootcam_0.admin" name="x_955017_bootcam_0.admin">2e1d70a847b7111075a4f8b7536d4335</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:31</sys_created_on>
+        <sys_id>2d8beeb04773111075a4f8b7536d43c4</sys_id>
+        <sys_name>canvas_user.x_955017_bootcam_0.admin</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_user_role_contains_2d8beeb04773111075a4f8b7536d43c4</sys_update_name>
+    </sys_user_role_contains>
+</record_update>
