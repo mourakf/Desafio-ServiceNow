@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
-        <actions_access>true</actions_access>
-        <alter_access>true</alter_access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
         <caller_access/>
-        <client_scripts_access>true</client_scripts_access>
+        <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>true</create_access>
+        <create_access>false</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
         <sys_update_name>sys_db_object_d61e30e847b7111075a4f8b7536d4332</sys_update_name>
-        <update_access>true</update_access>
+        <update_access>false</update_access>
         <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
