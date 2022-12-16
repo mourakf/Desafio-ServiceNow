@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>Yes</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -19,11 +19,11 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>description</field>
+        <field>active</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -39,13 +39,13 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>description</name>
-        <order>300</order>
+        <name>active</name>
+        <order>1000</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Description</question_text>
+        <question_text>Active</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -53,9 +53,11 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_955017_bootcam_0_bootcamper</record_producer_table>
-        <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference>sys_user</reference>
+        <reference_qual>active=true^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -73,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-14 16:38:16</sys_created_on>
-        <sys_id>652822454773111075a4f8b7536d436e</sys_id>
-        <sys_name>Description</sys_name>
+        <sys_created_on>2022-12-16 19:05:45</sys_created_on>
+        <sys_id>4e7991314773111075a4f8b7536d43c9</sys_id>
+        <sys_name>Active</sys_name>
         <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
         <sys_policy/>
         <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
-        <sys_update_name>item_option_new_652822454773111075a4f8b7536d436e</sys_update_name>
+        <sys_update_name>item_option_new_4e7991314773111075a4f8b7536d43c9</sys_update_name>
         <table/>
         <tooltip/>
-        <type>2</type>
+        <type>1</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -98,22 +100,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=652822454773111075a4f8b7536d436e"/>
-    <fx_price action="delete_multiple" query="id=652822454773111075a4f8b7536d436e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e7991314773111075a4f8b7536d43c9"/>
+    <fx_price action="delete_multiple" query="id=4e7991314773111075a4f8b7536d43c9"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>652822454773111075a4f8b7536d436e</id>
+        <id>4e7991314773111075a4f8b7536d43c9</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-14 16:38:16</sys_created_on>
-        <sys_id>a12822454773111075a4f8b7536d4371</sys_id>
+        <sys_created_on>2022-12-16 19:05:45</sys_created_on>
+        <sys_id>651d19b14773111075a4f8b7536d43a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-14 16:38:16</sys_updated_on>
+        <sys_updated_on>2022-12-16 19:05:45</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -121,16 +123,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>652822454773111075a4f8b7536d436e</id>
+        <id>4e7991314773111075a4f8b7536d43c9</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-14 16:38:16</sys_created_on>
-        <sys_id>e52822454773111075a4f8b7536d4370</sys_id>
+        <sys_created_on>2022-12-16 19:05:45</sys_created_on>
+        <sys_id>e11d19b14773111075a4f8b7536d43a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-14 16:38:16</sys_updated_on>
+        <sys_updated_on>2022-12-16 19:05:45</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
