@@ -3,6 +3,8 @@
         <element default="javascript:gs.getUser().getBirthday();" label="Birthday" max_length="32" name="birthday" type="glide_date"/>
         <element choice="3" default="2" label="Course" mandatory="true" max_length="250" name="course" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Service Now Fundamentals" value="300"/>
+                <element inactive_on_update="false" label="Shark Talent" value="200"/>
                 <element inactive_on_update="false" label="Bootcamp" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Other" sequence="1" value="2"/>
             </choice>

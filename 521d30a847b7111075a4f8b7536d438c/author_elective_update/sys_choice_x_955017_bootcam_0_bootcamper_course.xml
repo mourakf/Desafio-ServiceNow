@@ -17,6 +17,38 @@
             <element>course</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Shark Talent</label>
+            <language>en</language>
+            <name>x_955017_bootcam_0_bootcamper</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-16 18:40:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>course</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Now Fundamentals</label>
+            <language>en</language>
+            <name>x_955017_bootcam_0_bootcamper</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-16 18:41:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>300</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>course</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Bootcamp</label>
             <language>en</language>
             <name>x_955017_bootcam_0_bootcamper</name>
@@ -36,7 +68,7 @@
             <label>Other</label>
             <language>en</language>
             <name>x_955017_bootcam_0_bootcamper</name>
-            <sequence>100</sequence>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>aes.creator</sys_created_by>
             <sys_created_on>2022-12-12 20:01:08</sys_created_on>
