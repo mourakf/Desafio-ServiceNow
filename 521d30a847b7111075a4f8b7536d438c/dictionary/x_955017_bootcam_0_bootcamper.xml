@@ -37,6 +37,7 @@
             </choice>
         </element>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User ID" max_length="32" name="user_id" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="ZipCode" mandatory="true" max_length="12" name="zipcode" type="string"/>
         <index name="index">
             <element name="assigned_to"/>
         </index>
