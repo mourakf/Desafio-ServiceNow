@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b10b09e447f7111075a4f8b7536d43f6" label="Profile" max_length="40" name="x_955017_bootcam_0_profile" text_index="true" type="collection">
+        <element label="Address" max_length="250" name="address" type="string"/>
+        <element label="City" max_length="250" name="city" type="string"/>
+        <element label="Comments" max_length="250" name="comments" type="string"/>
+        <element label="Course" max_length="32" name="course" reference="x_955017_bootcam_0_bootcamper" type="reference"/>
+        <element label="Bootcamper" max_length="32" name="name" reference="x_955017_bootcam_0_bootcamper" type="reference"/>
+        <element label="Neighborhood" max_length="250" name="neighborhood" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="250" name="state" type="string"/>
+        <element label="Zip Code" max_length="250" name="zip_code" type="string"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

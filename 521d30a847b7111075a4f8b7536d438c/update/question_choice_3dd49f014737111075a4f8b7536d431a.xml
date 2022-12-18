@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Gender">c2046ecd4733111075a4f8b7536d43d3</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-14 19:53:42</sys_created_on>
+        <sys_id>3dd49f014737111075a4f8b7536d431a</sys_id>
+        <sys_name>Female</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>question_choice_3dd49f014737111075a4f8b7536d431a</sys_update_name>
+        <text>Female</text>
+        <value>1</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3dd49f014737111075a4f8b7536d431a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>3dd49f014737111075a4f8b7536d431a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-14 19:53:42</sys_created_on>
+        <sys_id>e4e45f014737111075a4f8b7536d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-14 19:53:42</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>3dd49f014737111075a4f8b7536d431a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-14 19:53:42</sys_created_on>
+        <sys_id>6ce45f014737111075a4f8b7536d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-14 19:53:42</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

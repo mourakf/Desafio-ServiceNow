@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sc_cat_item" version="2" view="bootcamper">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>item_option_new.cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>776c83c547f3111075a4f8b7536d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>io_set_item.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7b6c83c547f3111075a4f8b7536d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>catalog_ui_policy.catalog_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7f6c83c547f3111075a4f8b7536d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>catalog_ui_policy_action.catalog_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>736c83c547f3111075a4f8b7536d4369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>catalog_script_client.cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>776c83c547f3111075a4f8b7536d4369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>sc_cat_item_user_criteria_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7b6c83c547f3111075a4f8b7536d4369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>sc_cat_item_user_criteria_no_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7f6c83c547f3111075a4f8b7536d4369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>7</position>
+            <related_list>sc_cat_item_location_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>736c83c547f3111075a4f8b7536d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>8</position>
+            <related_list>sc_cat_item_company_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>776c83c547f3111075a4f8b7536d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>9</position>
+            <related_list>sc_cat_item_dept_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7b6c83c547f3111075a4f8b7536d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>10</position>
+            <related_list>sc_cat_item_group_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7f6c83c547f3111075a4f8b7536d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>11</position>
+            <related_list>sc_cat_item_user_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>736c83c547f3111075a4f8b7536d436b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>12</position>
+            <related_list>sc_cat_item_location_no_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>776c83c547f3111075a4f8b7536d436b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>13</position>
+            <related_list>sc_cat_item_company_no_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7b6c83c547f3111075a4f8b7536d436b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>14</position>
+            <related_list>sc_cat_item_dept_no_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7f6c83c547f3111075a4f8b7536d436b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>15</position>
+            <related_list>sc_cat_item_group_no_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>736c83c547f3111075a4f8b7536d436c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>16</position>
+            <related_list>sc_cat_item_user_no_mtom.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>776c83c547f3111075a4f8b7536d436c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>17</position>
+            <related_list>sc_cat_item_category.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7b6c83c547f3111075a4f8b7536d436c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>18</position>
+            <related_list>sc_cat_item_catalog.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7f6c83c547f3111075a4f8b7536d436c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>19</position>
+            <related_list>catalog_dl_definition.catalog_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>736c83c547f3111075a4f8b7536d436d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>20</position>
+            <related_list>sc_2_kb.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>776c83c547f3111075a4f8b7536d436d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>21</position>
+            <related_list>sc_2_sc.sc_cat_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7b6c83c547f3111075a4f8b7536d436d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>22</position>
+            <related_list>REL:285ba9da44312010f877dc313e5b811d</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>7f6c83c547f3111075a4f8b7536d436d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Item - Bootcamper" name="sc_cat_item" related_list="NULL" sys_domain="global" view="40ab0fc147f3111075a4f8b7536d43ec">bb6c83c547f3111075a4f8b7536d4367</list_id>
+            <order_by/>
+            <position>23</position>
+            <related_list>m2m_connected_content.catalog_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_id>736c83c547f3111075a4f8b7536d436e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-14 19:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Catalog Item - Bootcamper</calculated_name>
+            <filter/>
+            <name>sc_cat_item</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-14 19:16:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb6c83c547f3111075a4f8b7536d4367</sys_id>
+            <sys_name>Catalog Item - Bootcamper</sys_name>
+            <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+            <sys_update_name>sys_ui_related_sc_cat_item_bootcamper</sys_update_name>
+            <sys_user/>
+            <view display_value="Bootcamper" name="bootcamper">40ab0fc147f3111075a4f8b7536d43ec</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

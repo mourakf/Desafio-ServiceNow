@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d61e30e847b7111075a4f8b7536d4332" label="Bootcamper" max_length="40" name="x_955017_bootcam_0_bootcamper" text_index="true" type="collection">
+        <element choice="3" label="Active" max_length="40" name="active" type="boolean">
+            <choice/>
+        </element>
+        <element choice="1" label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference">
+            <choice/>
+        </element>
+        <element default="javascript:gs.getUser().getBirthday();" label="Birthday" max_length="32" name="birthday" type="glide_date"/>
+        <element choice="3" default="2" label="Course" mandatory="true" max_length="250" name="course" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Service Now Fundamentals" value="300"/>
+                <element inactive_on_update="false" label="Shark Talent" value="200"/>
+                <element inactive_on_update="false" label="Bootcamp" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="250" name="description" type="string"/>
+        <element default="javascript:gs.getUser().getEmail();" label="Email" mandatory="true" max_length="100" name="email" type="string"/>
+        <element choice="3" default="javascript:gs.getUser().getGender();" label="Gender" max_length="32" name="gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="100" value="female"/>
+                <element inactive_on_update="false" label="Other" sequence="200" value="other"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserDisplayName()" label="Name" mandatory="true" max_length="250" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Occupation" max_length="250" name="occupation" type="string"/>
+        <element choice="3" default="0" label="State" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="200"/>
+                <element inactive_on_update="false" label="New" value="0"/>
+                <element inactive_on_update="false" label="Other" value="400"/>
+                <element inactive_on_update="false" label="Reproved" value="300"/>
+                <element inactive_on_update="false" label="Waiting For Approval" value="100"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User ID" max_length="32" name="user_id" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="ZipCode" mandatory="true" max_length="12" name="zipcode" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="birthday"/>
+        </index>
+        <index name="index3">
+            <element name="email"/>
+        </index>
+        <index name="index4">
+            <element name="gender"/>
+        </index>
+        <index name="index5">
+            <element name="name"/>
+        </index>
+        <index name="index6">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

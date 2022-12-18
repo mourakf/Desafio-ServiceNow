@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="BOOTCAMPERS">e08baeb08b73111098fd0536026b2f52</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>248baeb0387311108af8fa947e0fd254</sys_id>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_ux_page_property_248baeb0387311108af8fa947e0fd254</sys_update_name>
+        <type>string</type>
+        <unique_name>x_955017_bootcam_0.e08baeb08b73111098fd0536026b2f52.root.ribbonConfigId</unique_name>
+        <value>208baeb0917311101d9fafe6922ca551</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=248baeb0387311108af8fa947e0fd254"/>
+</record_update>

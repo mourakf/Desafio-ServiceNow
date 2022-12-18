@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_955017_bootcam_0_profile">active=true</condition>
+        <group/>
+        <name>BOOTCAMPERS - x_955017_bootcam_0_profile</name>
+        <roles/>
+        <source_table>x_955017_bootcam_0_profile</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:33</sys_created_on>
+        <sys_id>4e8b22f04773111075a4f8b7536d433a</sys_id>
+        <sys_name>BOOTCAMPERS - x_955017_bootcam_0_profile</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_search_source_4e8b22f04773111075a4f8b7536d433a</sys_update_name>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e8b22f04773111075a4f8b7536d433a"/>
+</record_update>

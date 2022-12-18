@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Bootcamper Table</name>
+        <retention_policy/>
+        <source>x_955017_bootcam_0_bootcamper</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:35</sys_created_on>
+        <sys_id>3a8b62f04773111075a4f8b7536d433b</sys_id>
+        <sys_name>Bootcamper Table</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>ais_datasource_3a8b62f04773111075a4f8b7536d433b</sys_update_name>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>
