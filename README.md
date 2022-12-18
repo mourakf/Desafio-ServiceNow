@@ -16,3 +16,5 @@ Construir um flow de registro de bootcamp na plataforma Service Now com as segui
 
 
 #### Estrutura de tabelas
+* Bootcamper
+* Profile
