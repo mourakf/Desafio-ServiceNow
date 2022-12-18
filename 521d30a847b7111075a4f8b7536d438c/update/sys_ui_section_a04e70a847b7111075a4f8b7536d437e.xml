@@ -168,6 +168,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-18 00:21:19</sys_created_on>
+            <sys_id>46eeab8e47b3111075a4f8b7536d4366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bootcamp Info" display_value="Bootcamp Info" name="x_955017_bootcam_0_bootcamper" sys_domain="global" view="Default view">a04e70a847b7111075a4f8b7536d437e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-18 00:21:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_comments</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-18 00:29:26</sys_created_on>
+            <sys_id>34c03b0247f3111075a4f8b7536d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bootcamp Info" display_value="Bootcamp Info" name="x_955017_bootcam_0_bootcamper" sys_domain="global" view="Default view">a04e70a847b7111075a4f8b7536d437e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-18 00:29:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Bootcamp Info</caption>
             <header>false</header>

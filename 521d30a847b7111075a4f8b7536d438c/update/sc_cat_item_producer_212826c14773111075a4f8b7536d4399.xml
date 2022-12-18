@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
-        <checked_out>true</checked_out>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -56,7 +56,7 @@
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=212826c14773111075a4f8b7536d4399&amp;sysparm_preview=true", "summary");</preview>
         <published_ref/>
         <recurring_frequency/>
-        <redirect_url>generated_record</redirect_url>
+        <redirect_url>catalog_home</redirect_url>
         <request_method/>
         <roles/>
         <save_options/>

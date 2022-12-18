@@ -8,7 +8,6 @@
         <element label="Neighborhood" max_length="250" name="neighborhood" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="State" max_length="250" name="state" type="string"/>
-        <element label="Zip Code" max_length="250" name="zip_code" type="string"/>
         <index name="index">
             <element name="course"/>
         </index>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Bootcamp Registration">bff4e7c247b3111075a4f8b7536d43d8</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:38:02</sys_created_on>
+        <sys_id>7ff4a30647b3111075a4f8b7536d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Bootcamp Registration</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sc_cat_item_category_7ff4a30647b3111075a4f8b7536d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-17 23:38:02</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</application>
+        <file_path/>
+        <instance_id>c53448ecdb239384439ef70fbf961945</instance_id>
+        <instance_name>dev66757</instance_name>
+        <name>sc_cat_item_category_7ff4a30647b3111075a4f8b7536d43fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Bootcamp Registration">bff4e7c247b3111075a4f8b7536d43d8</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-17 23:38:02</sys_created_on><sys_id>7ff4a30647b3111075a4f8b7536d43fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Bootcamp Registration</sys_name><sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope><sys_update_name>sc_cat_item_category_7ff4a30647b3111075a4f8b7536d43fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-17 23:38:02</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-76450747</payload_hash>
+        <record_name>Office.Bootcamp Registration</record_name>
+        <reverted_from/>
+        <source>f0069c1d47f7111075a4f8b7536d4389</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:38:02</sys_created_on>
+        <sys_id>73f4e30647b3111075a4f8b7536d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1852273a5d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-17 23:38:02</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>bbf4e3063eb311102fb8433b34e99601</update_guid>
+        <update_guid_history>bbf4e3063eb311102fb8433b34e99601:-76450747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Bootcamp Registration">c3e5a74647b3111075a4f8b7536d43ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:42:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>7012401a628e4600a930e31a71910000</sys_id>
+        <sys_metadata>7ff4a30647b3111075a4f8b7536d43fe</sys_metadata>
+        <sys_name>Office.Bootcamp Registration</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_scope_delete display_value="">46806b66b0f344f8a623dd82c99d7f84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7ff4a30647b3111075a4f8b7536d43fe</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7ff4a30647b3111075a4f8b7536d43fe">73f4e30647b3111075a4f8b7536d4302</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

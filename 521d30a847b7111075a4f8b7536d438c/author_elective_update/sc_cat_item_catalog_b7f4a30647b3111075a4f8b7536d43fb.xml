@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Bootcamp Registration">bff4e7c247b3111075a4f8b7536d43d8</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:38:02</sys_created_on>
+        <sys_id>b7f4a30647b3111075a4f8b7536d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Bootcamp Registration</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b7f4a30647b3111075a4f8b7536d43fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-17 23:38:02</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</application>
+        <file_path/>
+        <instance_id>c53448ecdb239384439ef70fbf961945</instance_id>
+        <instance_name>dev66757</instance_name>
+        <name>sc_cat_item_catalog_b7f4a30647b3111075a4f8b7536d43fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Bootcamp Registration">bff4e7c247b3111075a4f8b7536d43d8</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-17 23:38:02</sys_created_on><sys_id>b7f4a30647b3111075a4f8b7536d43fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Bootcamp Registration</sys_name><sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope><sys_update_name>sc_cat_item_catalog_b7f4a30647b3111075a4f8b7536d43fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-17 23:38:02</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1591360644</payload_hash>
+        <record_name>Service Catalog.Bootcamp Registration</record_name>
+        <reverted_from/>
+        <source>f0069c1d47f7111075a4f8b7536d4389</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:38:02</sys_created_on>
+        <sys_id>b7f4a30647b3111075a4f8b7536d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1852273a5ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-17 23:38:02</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>fff4a30627b3111020aae7a28f5f6bfd</update_guid>
+        <update_guid_history>fff4a30627b3111020aae7a28f5f6bfd:-1591360644</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Bootcamp Registration">43e56b0647b3111075a4f8b7536d4322</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:42:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>016f2726270d4e12802bfba69a48e164</sys_id>
+        <sys_metadata>b7f4a30647b3111075a4f8b7536d43fb</sys_metadata>
+        <sys_name>Service Catalog.Bootcamp Registration</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_parent display_value="">bff4e7c247b3111075a4f8b7536d43d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_scope_delete display_value="">46806b66b0f344f8a623dd82c99d7f84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_b7f4a30647b3111075a4f8b7536d43fb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_b7f4a30647b3111075a4f8b7536d43fb">b7f4a30647b3111075a4f8b7536d43fe</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

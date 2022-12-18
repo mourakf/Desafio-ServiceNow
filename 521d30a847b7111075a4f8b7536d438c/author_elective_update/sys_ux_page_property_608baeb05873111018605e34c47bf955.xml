@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="BOOTCAMPERS">e08baeb08b73111098fd0536026b2f52</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>608baeb05873111018605e34c47bf955</sys_id>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_ux_page_property_608baeb05873111018605e34c47bf955</sys_update_name>
+        <type>string</type>
+        <unique_name>x_955017_bootcam_0.e08baeb08b73111098fd0536026b2f52.root.globalSearchDataConfigId</unique_name>
+        <value>a88baeb037731110c5f97a18fa58cc56</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=608baeb05873111018605e34c47bf955"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</application>
+        <file_path/>
+        <instance_id>c53448ecdb239384439ef70fbf961945</instance_id>
+        <instance_name>dev66757</instance_name>
+        <name>sys_ux_page_property_608baeb05873111018605e34c47bf955</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="BOOTCAMPERS">e08baeb08b73111098fd0536026b2f52</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 22:14:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>608baeb05873111018605e34c47bf955</sys_id>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_ux_page_property_608baeb05873111018605e34c47bf955</sys_update_name>
+        <type>string</type>
+        <unique_name>x_955017_bootcam_0.e08baeb08b73111098fd0536026b2f52.root.globalSearchDataConfigId</unique_name>
+        <value>a88baeb037731110c5f97a18fa58cc56</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=608baeb05873111018605e34c47bf955"/>
+</record_update>]]></payload>
+        <payload_hash>883093786</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source>55df1b4e4773111075a4f8b7536d43de</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:15:59</sys_created_on>
+        <sys_id>70ff938e4773111075a4f8b7536d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185225f756b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-17 23:15:59</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>bcff938e8b7311104cb8309940f9ebd3</update_guid>
+        <update_guid_history>bcff938e8b7311104cb8309940f9ebd3:0,dfad57ca8c731110b6f5d7c9dbf05cd7:-448451728,97ad57ca1d731110e1beb0f4994338d4:-1186410729</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 23:29:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>220d1ec82f9641588e0e40e6529dd944</sys_id>
+        <sys_metadata>608baeb05873111018605e34c47bf955</sys_metadata>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_scope_delete display_value="">46806b66b0f344f8a623dd82c99d7f84</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_608baeb05873111018605e34c47bf955</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_608baeb05873111018605e34c47bf955">70ff938e4773111075a4f8b7536d43d4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

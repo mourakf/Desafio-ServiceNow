@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_955017_bootcam_0.APIViaCEPUtils </api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Requisição a API da Via CEP</description>
+        <name>APIViaCEPUtils </name>
+        <script><![CDATA[var APIViaCEPUtils  = Class.create();
+APIViaCEPUtils .prototype =  Object.extendsObject(global.AbstractAjaxProcessor, {
+	getCEPData: function(){
+		var zipcode = this.getParameter('sysparm_cep');
+		try { 
+			var req = new sn_ws.RESTMessageV2('x_955017_bootcam_0.API Via CEP', 'GET CEP');
+			req.setStringParameterNoEscape('cep', zipcode);
+			var response = req.execute();
+			var responseBody = JSON.parse(response.getBody());
+			var httpStatus = response.getStatusCode();
+            if (httpStatus == 200) {
+                return {
+					httpStatus: httpStatus,
+                    logradouro: responseBody.logradouro,
+                    bairro: responseBody.bairro,
+                   localidade: responseBody.localidade,
+                    uf: responseBody.uf
+                };
+		}}
+		catch(error) {
+			var message = error.message;
+		}
+	},
+    type: 'APIViaCEPUtils '
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 23:52:00</sys_created_on>
+        <sys_id>137d16b14777111075a4f8b7536d434f</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>APIViaCEPUtils </sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_script_include_137d16b14777111075a4f8b7536d434f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-17 22:09:37</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</application>
+        <file_path/>
+        <instance_id>c53448ecdb239384439ef70fbf961945</instance_id>
+        <instance_name>dev66757</instance_name>
+        <name>sys_script_include_137d16b14777111075a4f8b7536d434f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_955017_bootcam_0.APIViaCEPUtils &lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Requisição a API da Via CEP&lt;/description&gt;&lt;name&gt;APIViaCEPUtils &lt;/name&gt;&lt;script&gt;&lt;![CDATA[var APIViaCEPUtils  = Class.create();
+APIViaCEPUtils .prototype =  Object.extendsObject(global.AbstractAjaxProcessor, {
+	getCEPData: function(){
+		var zipcode = this.getParameter('sysparm_cep');
+		try { 
+			var req = new sn_ws.RESTMessageV2('x_955017_bootcam_0.API Via CEP', 'GET CEP');
+			req.setStringParameterNoEscape('cep', zipcode);
+			var response = req.execute();
+			var responseBody = JSON.parse(response.getBody());
+			var httpStatus = response.getStatusCode();
+            if (httpStatus == 200) {
+                return {
+					httpStatus: httpStatus,
+                    logradouro: responseBody.logradouro,
+                    bairro: responseBody.bairro,
+                   localidade: responseBody.localidade,
+                    uf: responseBody.uf
+                };
+		}}
+		catch(error) {
+			var message = error.message;
+		}
+	},
+    type: 'APIViaCEPUtils '
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-16 23:52:00&lt;/sys_created_on&gt;&lt;sys_id&gt;137d16b14777111075a4f8b7536d434f&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;APIViaCEPUtils &lt;/sys_name&gt;&lt;sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0"&gt;521d30a847b7111075a4f8b7536d438c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;521d30a847b7111075a4f8b7536d438c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_137d16b14777111075a4f8b7536d434f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-17 22:09:37&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-551611124</payload_hash>
+        <record_name>APIViaCEPUtils </record_name>
+        <reverted_from/>
+        <source>11f49f164733511075a4f8b7536d43f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 17:06:31</sys_created_on>
+        <sys_id>2af4df164733511075a4f8b7536d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18526338f920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-18 17:06:31</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b8c0d34eee3311109bd9f09131330639</update_guid>
+        <update_guid_history>b8c0d34eee3311109bd9f09131330639:-551611124,50ef9b4ef5731110c0519f09959dabbd:-1484572648,b8c0d34eee3311109bd9f09131330639:-551611124,2f9676f987b711108ad3f0007c52cd02:592258284,46567a79bfb71110604d811247d7c52a:1509342380,26337af554b711109ac85d0516140dd4:592258284,32007a35aab71110a3fc4d4332682a3c:1509342380,e2af6ef1efb711109b6d3703c96fb6a7:-1491624820,5d6f2635bfb71110b73bf29230886ded:1886258380,059dee3119b7111029e390d023a8ec09:-1698377456,1f8c6631e6b71110af58d7abe3c6b23d:-1825109701,282aeebd4a771110f0ed555ece07994e:-1208663707,46c966bd67771110a61ce7022bd2b59f:1862359754,0ce72a3dc1771110096e930a2fc69642:-877918198,11062279d7771110f0ad1839773cfa43:-495685307,edf2aeb52977111079aff93eaed438df:-1273958484,bef02e35ea7711103af3d9baea75e232:-1758929172,feaf9e35387711105ee8c8ae1028df03:-730790479,ea9e9ef17e771110bceb875fef07c648:178345711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 17:12:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>339a9e7da3614884b5dad9605ded6fa4</sys_id>
+        <sys_metadata>137d16b14777111075a4f8b7536d434f</sys_metadata>
+        <sys_name>APIViaCEPUtils </sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_scope_delete display_value="">46806b66b0f344f8a623dd82c99d7f84</sys_scope_delete>
+        <sys_update_name>sys_script_include_137d16b14777111075a4f8b7536d434f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_137d16b14777111075a4f8b7536d434f">2af4df164733511075a4f8b7536d4393</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

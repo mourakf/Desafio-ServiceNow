@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>zipcode</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CEP address</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var ga = new GlideAjax('ViaCEPUtils');
+    ga.addParam('sysparm_name', 'getCepData');
+    ga.addParam('sysparm_cep', newValue);
+    ga.getXMLAnswer(function(response) {
+        var obj = JSON.parse(response);
+        //g_form.setValue('address', obj.logradouro);
+        //g_form.setValue('neighborhood', obj.bairro);
+       // g_form.setValue('city', obj.localidade);
+        //g_form.setValue('state', obj.uf);
+    });
+
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 00:44:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fa13f4247f3111075a4f8b7536d4365</sys_id>
+        <sys_name>CEP address</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_script_client_5fa13f4247f3111075a4f8b7536d4365</sys_update_name>
+        <table>x_955017_bootcam_0_bootcamper</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

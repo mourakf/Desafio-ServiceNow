@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>zipcode</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>get cep</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+    var ga = new GlideAjax('APIViaCEPUtils');
+    ga.addParam('sysparm_name', 'getCEPData');
+    ga.addParam('sysparm_cep', newValue);
+    ga.getXMLAnswer(function(response) {
+        var obj = JSON.parse(response);
+		g_form.setValue('description', obj.uf);
+    });
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-17 01:25:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49e3f63947b7111075a4f8b7536d43c9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>get cep</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_script_client_49e3f63947b7111075a4f8b7536d43c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-17 22:28:10</sys_updated_on>
+        <table>x_955017_bootcam_0_bootcamper</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</application>
+        <file_path/>
+        <instance_id>c53448ecdb239384439ef70fbf961945</instance_id>
+        <instance_name>dev66757</instance_name>
+        <name>sys_script_client_49e3f63947b7111075a4f8b7536d43c9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;zipcode&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;get cep&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+    var ga = new GlideAjax('APIViaCEPUtils');
+    ga.addParam('sysparm_name', 'getCEPData');
+    ga.addParam('sysparm_cep', newValue);
+    ga.getXMLAnswer(function(response) {
+        var obj = JSON.parse(response);
+		g_form.setValue('description', obj.uf);
+    });
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-17 01:25:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;49e3f63947b7111075a4f8b7536d43c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;get cep&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0"&gt;521d30a847b7111075a4f8b7536d438c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BOOTCAMPERS"&gt;521d30a847b7111075a4f8b7536d438c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_49e3f63947b7111075a4f8b7536d43c9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-17 22:28:10&lt;/sys_updated_on&gt;&lt;table&gt;x_955017_bootcam_0_bootcamper&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2067908455</payload_hash>
+        <record_name>get cep</record_name>
+        <reverted_from/>
+        <source>11f49f164733511075a4f8b7536d43f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 17:06:31</sys_created_on>
+        <sys_id>9ef4df164733511075a4f8b7536d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18526338f460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-18 17:06:31</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2c05db42ad731110ed2b19a276a0ddd1</update_guid>
+        <update_guid_history>2c05db42ad731110ed2b19a276a0ddd1:-2067908455,a8ef9b4e07731110881fe35bd30d3cf7:685446797,2c05db42ad731110ed2b19a276a0ddd1:-2067908455,fa74d342597311106f9e9e7162623131:-740184101,f9d357ce353311106806324748896791:516224840,d0b73a3d6db71110e91527ecfddae278:-740184101,0197faf9dfb71110a267961f6f62131b:516224840,f8647a398ab71110791891658021631c:-740184101,8314ba392cb711103434cc949e5213d6:516224840</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 17:13:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4700319f628b45a097760435cd30c5f9</sys_id>
+        <sys_metadata>49e3f63947b7111075a4f8b7536d43c9</sys_metadata>
+        <sys_name>get cep</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_parent display_value="Bootcamper">d61e30e847b7111075a4f8b7536d4332</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_scope_delete display_value="">46806b66b0f344f8a623dd82c99d7f84</sys_scope_delete>
+        <sys_update_name>sys_script_client_49e3f63947b7111075a4f8b7536d43c9</sys_update_name>
+        <sys_update_version display_value="sys_script_client_49e3f63947b7111075a4f8b7536d43c9">9ef4df164733511075a4f8b7536d438c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

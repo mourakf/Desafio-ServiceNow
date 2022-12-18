@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Bootcampers">d8eda74e47b3111075a4f8b7536d43ec</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Bootcampers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_955017_bootcam_0_bootcampers</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_955017_bootcam_0.bootcampers_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 00:16:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0eda74e47b3111075a4f8b7536d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootcampers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_update_name>sys_app_module_d0eda74e47b3111075a4f8b7536d43f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-18 00:16:50</sys_updated_on>
+        <timeline_page/>
+        <title>Bootcampers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</application>
+        <file_path/>
+        <instance_id>c53448ecdb239384439ef70fbf961945</instance_id>
+        <instance_name>dev66757</instance_name>
+        <name>sys_app_module_d0eda74e47b3111075a4f8b7536d43f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Bootcampers">d8eda74e47b3111075a4f8b7536d43ec</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Bootcampers</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_955017_bootcam_0_bootcampers</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_955017_bootcam_0.bootcampers_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-18 00:16:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d0eda74e47b3111075a4f8b7536d43f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bootcampers</sys_name><sys_overrides/><sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package><sys_policy/><sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope><sys_update_name>sys_app_module_d0eda74e47b3111075a4f8b7536d43f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-18 00:16:50</sys_updated_on><timeline_page/><title>Bootcampers</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-194289085</payload_hash>
+        <record_name>Bootcampers</record_name>
+        <reverted_from/>
+        <source>f0069c1d47f7111075a4f8b7536d4389</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 00:16:51</sys_created_on>
+        <sys_id>94eda74e47b3111075a4f8b7536d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18522972d460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-18 00:16:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>dceda74e7eb31110b92e82f4482bdff1</update_guid>
+        <update_guid_history>dceda74e7eb31110b92e82f4482bdff1:-194289085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bootcampers">cb80370247f3111075a4f8b7536d43e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-18 00:28:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>e773666d2bd146a28b3b100edfc30f91</sys_id>
+        <sys_metadata>d0eda74e47b3111075a4f8b7536d43f0</sys_metadata>
+        <sys_name>Bootcampers</sys_name>
+        <sys_package display_value="BOOTCAMPERS" source="x_955017_bootcam_0">521d30a847b7111075a4f8b7536d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BOOTCAMPERS">521d30a847b7111075a4f8b7536d438c</sys_scope>
+        <sys_scope_delete display_value="">46806b66b0f344f8a623dd82c99d7f84</sys_scope_delete>
+        <sys_update_name>sys_app_module_d0eda74e47b3111075a4f8b7536d43f0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d0eda74e47b3111075a4f8b7536d43f0">94eda74e47b3111075a4f8b7536d43f2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
